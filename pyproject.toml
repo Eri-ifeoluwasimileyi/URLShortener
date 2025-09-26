@@ -1,0 +1,16 @@
+[project]
+name = "url-shortener"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "config>=0.5.1",
+    "coverage>=7.10.6",
+    "flask>=3.1.2",
+    "flask-cors>=6.0.1",
+    "flask-pymongo>=3.0.1",
+    "pydantic>=2.11.7",
+    "pymongo>=4.15.0",
+    "routes>=2.5.1",
+    "validators>=0.35.0",
+]
