@@ -4,15 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
-    "bcrypt>=5.0.0",
+    "config>=0.5.1",
     "coverage>=7.10.6",
     "flask>=3.1.2",
     "flask-cors>=6.0.1",
-    "flask-jwt-extended>=4.7.1",
     "flask-pymongo>=3.0.1",
-    "pydantic[email]>=2.11.7",
+    "pydantic>=2.11.7",
     "pymongo>=4.15.0",
-    "python-dotenv>=1.1.1",
     "routes>=2.5.1",
     "validators>=0.35.0",
 ]

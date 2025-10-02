@@ -1,4 +1,10 @@
-import re
+import validators
 
-name_pattern = re.compile(r"^([a-z]+)([-']?)([a-z]+)$",re.IGNORECASE)
-string_pattern = re.compile(r"[a-z]+", re.IGNORECASE)
+
+def validate_url_data(data: dict):
+    if not data or 'long' not in data:
+        return False
+    if validators.url(data.get('long')):
+        return True
+    return False
+
